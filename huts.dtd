@@ -1,8 +1,6 @@
-<?xml version="1.0"?>
-<!DOCTYPE catalog[
 <!ELEMENT catalog (huts)>
 <!ELEMENT huts (hut*)>
-<!ELEMENT hut (name, description, thumbnail, location, contacts, capacity, gallery, amenities, exit_routes, nearby_sites)>
+<!ELEMENT hut (name, description, thumbnail?, location, contacts, capacity, gallery, amenities, exit_routes, nearby_sites)>
 <!ATTLIST hut id ID #REQUIRED>
 
 <!ELEMENT name (#PCDATA)>
@@ -11,7 +9,7 @@
 <!ELEMENT thumbnail EMPTY>
 <!ATTLIST thumbnail source ENTITY #REQUIRED>
 
-<!ELEMENT location (mountain, address, coordinates, altitude)>
+<!ELEMENT location (mountain, address?, coordinates, altitude)>
 <!ELEMENT mountain (#PCDATA)>
 <!ELEMENT address (#PCDATA)>
 <!ELEMENT coordinates (latitude, longitude)>
@@ -19,7 +17,7 @@
 <!ELEMENT longitude (#PCDATA)>
 <!ELEMENT altitude (#PCDATA)>
 
-<!ELEMENT contacts (phone+, email)>
+<!ELEMENT contacts (phone+, email*)>
 <!ELEMENT phone (#PCDATA)>
 <!ELEMENT email (#PCDATA)>
 
@@ -42,12 +40,9 @@
 >
 
 <!ELEMENT exit_routes (route*)>
-<!ELEMENT route (route_name, distance)>
-<!ELEMENT route_name (#PCDATA) #REQUIRED>
-<!ELEMENT distance (#PCDATA) EMPTY>
+<!ELEMENT route (route_name, distance?)>
+<!ELEMENT route_name (#PCDATA)>
+<!ELEMENT distance (#PCDATA) >
 
 <!ELEMENT nearby_sites (site*)>
-<!ELEMENT site (nearby_site_name, distance)>
-<!ELEMENT nearby_site_name (#PCDATA) #REQUIRED>
-<!ELEMENT distance (#PCDATA) EMPTY>
-]>
+<!ELEMENT site (#PCDATA)>
