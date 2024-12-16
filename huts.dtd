@@ -1,11 +1,16 @@
 <?xml version="1.0"?>
 <!DOCTYPE catalog[
-<!ELEMENT catalog (hut*)>
+<!ELEMENT catalog (huts)>
+<!ELEMENT huts (hut*)>
 <!ELEMENT hut (name, description, thumbnail, location, contacts, capacity, gallery, amenities, exit_routes, nearby_sites)>
+<!ATTLIST hut id ID #REQUIRED>
+
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT description (#PCDATA)>
+
 <!ELEMENT thumbnail EMPTY>
 <!ATTLIST thumbnail source ENTITY #REQUIRED>
+
 <!ELEMENT location (mountain, address, coordinates, altitude)>
 <!ELEMENT mountain (#PCDATA)>
 <!ELEMENT address (#PCDATA)>
@@ -13,10 +18,17 @@
 <!ELEMENT latitude (#PCDATA)>
 <!ELEMENT longitude (#PCDATA)>
 <!ELEMENT altitude (#PCDATA)>
+
 <!ELEMENT contacts (phone+, email)>
 <!ELEMENT phone (#PCDATA)>
 <!ELEMENT email (#PCDATA)>
+
 <!ELEMENT capacity (#PCDATA)>
+
+<!ELEMENT gallery (image*)>
+<!ELEMENT image EMPTY>
+<!ATTLIST image source ENTITY #REQUIRED>
+
 <!ELEMENT amenities EMPTY>
 <!ATTLIST amenities water (yes|no) #REQUIRED
                     electricity (yes|no) #REQUIRED
@@ -28,15 +40,14 @@
                     internet (yes|no) #REQUIRED
                     shop (yes|no) #REQUIRED
 >
-<!ELEMENT gallery (image*)>
-<!ELEMENT image EMPTY>
-<!ATTLIST image source ENTITY #REQUIRED>
+
 <!ELEMENT exit_routes (route*)>
-<!ELEMENT route (name, distance)>
-<!ELEMENT name (#PCDATA) EMPTY>
+<!ELEMENT route (route_name, distance)>
+<!ELEMENT route_name (#PCDATA) #REQUIRED>
 <!ELEMENT distance (#PCDATA) EMPTY>
+
 <!ELEMENT nearby_sites (site*)>
-<!ELEMENT site (name, distance)>
-<!ELEMENT name (#PCDATA)>
+<!ELEMENT site (nearby_site_name, distance)>
+<!ELEMENT nearby_site_name (#PCDATA) #REQUIRED>
 <!ELEMENT distance (#PCDATA) EMPTY>
 ]>
