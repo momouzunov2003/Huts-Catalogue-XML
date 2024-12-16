@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog SYSTEM "huts.dtd" [
+    <!NOTATION jpeg SYSTEM "image/jpeg">
+    <!NOTATION jpg SYSTEM "image/jpeg">
+    
+    <!ENTITY hija-pirin-thumbnail PUBLIC "hija-pirin-thumbnail" "https://www.planinite.info/V_pomosht_na_turista/Hiji_i_zasloni/Snimki_Hizhi/Pirin/Web/H_Pirin.jpg" NDATA jpeg>
+
+]>
+<catalog>
+    <huts>
+        <hut id="hut1">
+            <name>Хижа Пирин</name>
+            <description>
+                Намира се в местността "Трите реки". Представлява масивна триетажна сграда с 80 места. Тоалетните и баните са външни. Хижата е електрифицирана и водоснабдена. Отоплението е на твърдо гориво.
+            </description>
+            <thumbnail source="hija-pirin-thumbnail"/>
+            <location>
+                <mountain>Северен Пирин</mountain>
+                <coordinates>
+                    <latitude>41.631786</latitude>
+                    <longitude>23.497795</longitude>
+                </coordinates>
+                <altitude>1620</altitude>
+            </location>
+            <contacts>
+                <phone>0876681205</phone>
+                <phone>0896766155</phone>
+            </contacts>
+            <capacity>78</capacity>
+            <gallery>
+                <image source="hija-pirin-1.jpg"></image>
+                <image source="hija-pirin-2.jpg"></image>
+                <image source="hija-pirin-3.jpg"></image>
+            </gallery>
+            <amenities
+                water="yes"
+                electricity="yes"
+                heating="yes"
+                bathroom="yes"
+                shower="yes"
+                canteen="yes"
+                restaurant="yes"
+                internet="no"
+                shop="yes"
+            />
+            <exit_routes>
+                <route>
+                    <route_name>село Пирин</route_name>
+                    <distance>4:30</distance>
+                </route>
+                <route>
+                    <route_name>град Мелник</route_name>
+                    <distance>6:00</distance>
+                </route>
+            </exit_routes>
+            <nearby_sites>
+                <site>мотел "Горски рай"</site>
+                <site>хижа "Малина"</site>
+                <site>хижа "Безбог"</site>
+            </nearby_sites>
+        </hut>
+    </huts>
+</catalog>
