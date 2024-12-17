@@ -11,6 +11,11 @@
                             <xsl:value-of select="name"/>
                         </h2>
                     </div>
+                    <div>
+                       <xsl:variable name="imageSource" select="unparsed-entity-uri(thumbnail/@source)" />
+                        <img src="{$imageSource}"/>
+                    </div>
+
                 </xsl:for-each>
             </body>
         </html>
