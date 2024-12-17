@@ -9,7 +9,7 @@
 <?xml-stylesheet type="text/xsl" href="huts.xsl"?>
 <catalog>
     <huts>
-        <hut id="hut1">
+        <hut id="hut1" region="pirin-mountain" type="mountain-type">
             <name>Хижа Пирин</name>
             <description>
                 Намира се в местността "Трите реки". Представлява масивна триетажна сграда с 80 места. Тоалетните и баните са външни. Хижата е електрифицирана и водоснабдена. Отоплението е на твърдо гориво.
@@ -29,9 +29,9 @@
             </contacts>
             <capacity>78</capacity>
             <gallery>
-                <image source="hija-pirin-1.jpg"></image>
-                <image source="hija-pirin-2.jpg"></image>
-                <image source="hija-pirin-3.jpg"></image>
+                <image source="hija-pirin-1.jpg"/>
+                <image source="hija-pirin-2.jpg"/>
+                <image source="hija-pirin-3.jpg"/>
             </gallery>
             <amenities
                 water="yes"
@@ -61,4 +61,24 @@
             </nearby_sites>
         </hut>
     </huts>
+    <regions>
+        <region id="pirin-mountain">Пирин</region>
+        <region id="vitosha-mountain">Витоша</region>
+        <region id="rila-mountain">Рила</region>
+        <region id="rhodopes-mountain">Родопи</region>
+        <region id="sredna-gora-mountain">Средна гора</region>
+        <region id="stara-planina-mountain">Стара планина</region>
+        <region id="osogovo-mountain">Осогово</region>
+        <region id="belasitsa-mountain">Беласица</region>
+        <region id="sakar-mountain">Сакар</region>
+        <region id="slavyanka-mountain">Славянка</region>
+        <region id="zlatitsa-mountain">Златица</region>
+        <region id="other-mountain">Други</region>
+    </regions>
+    <hut_types>
+        <type id="mountain-type">планинска</type>
+        <type id="hunting-type">ловна</type>
+        <type id="lodge-type">заслон</type>
+        <type id="other-type">друга</type>
+    </hut_types>
 </catalog>

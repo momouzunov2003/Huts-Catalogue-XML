@@ -1,7 +1,9 @@
-<!ELEMENT catalog (huts)>
+<!ELEMENT catalog (huts, regions, hut_types)>
 <!ELEMENT huts (hut*)>
 <!ELEMENT hut (name, description, thumbnail?, location, contacts, capacity, gallery, amenities, exit_routes, nearby_sites)>
 <!ATTLIST hut id ID #REQUIRED>
+<!ATTLIST hut region IDREF #REQUIRED>
+<!ATTLIST hut type IDREF #REQUIRED>
 
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT description (#PCDATA)>
@@ -46,3 +48,11 @@
 
 <!ELEMENT nearby_sites (site*)>
 <!ELEMENT site (#PCDATA)>
+
+<!ELEMENT regions (region*)>
+<!ELEMENT region (#PCDATA)>
+<!ATTLIST region id ID #REQUIRED>
+
+<!ELEMENT hut_types (type*)>
+<!ELEMENT type (#PCDATA)>
+<!ATTLIST type id ID #REQUIRED>
