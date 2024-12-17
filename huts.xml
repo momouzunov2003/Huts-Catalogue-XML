@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE catalog SYSTEM "huts.dtd" [
+    <!ENTITY hija-pirin-thumbnail PUBLIC "hija-pirin-thumbnail" "https://www.planinite.info/V_pomosht_na_turista/Hiji_i_zasloni/Snimki_Hizhi/Pirin/Web/H_Pirin.jpg" NDATA jpeg>
+    
     <!NOTATION jpeg SYSTEM "image/jpeg">
     <!NOTATION jpg SYSTEM "image/jpeg">
-    
-    <!ENTITY hija-pirin-thumbnail PUBLIC "hija-pirin-thumbnail" "https://www.planinite.info/V_pomosht_na_turista/Hiji_i_zasloni/Snimki_Hizhi/Pirin/Web/H_Pirin.jpg" NDATA jpeg>
-
 ]>
 <?xml-stylesheet type="text/xsl" href="huts.xsl"?>
 <catalog>
