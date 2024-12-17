@@ -30,15 +30,15 @@
 <!ATTLIST image source ENTITY #REQUIRED>
 
 <!ELEMENT amenities EMPTY>
-<!ATTLIST amenities water (yes|no) #REQUIRED
-                    electricity (yes|no) #REQUIRED
-                    heating (yes|no) #REQUIRED
-                    bathroom (yes|no) #REQUIRED
-                    shower (yes|no) #REQUIRED
-                    canteen (yes|no) #REQUIRED
-                    restaurant (yes|no) #REQUIRED
-                    internet (yes|no) #REQUIRED
-                    shop (yes|no) #REQUIRED
+<!ATTLIST amenities water (yes|no) "no" #REQUIRED
+                    electricity (yes|no) "no" #REQUIRED
+                    heating (yes|no) "no" #REQUIRED
+                    bathroom (yes|no) "no" #REQUIRED
+                    shower (yes|no) "no" #REQUIRED
+                    canteen (yes|no) "no" #REQUIRED
+                    restaurant (yes|no) "no" #REQUIRED
+                    internet (yes|no) "no" #REQUIRED
+                    shop (yes|no) "no" #REQUIRED
 >
 
 <!ELEMENT exit_routes (route*)>
