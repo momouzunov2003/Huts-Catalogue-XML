@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE catalog SYSTEM "huts.dtd" [
-    <!ENTITY hija-pirin-thumbnail PUBLIC "hija-pirin-thumbnail" "https://www.planinite.info/V_pomosht_na_turista/Hiji_i_zasloni/Snimki_Hizhi/Pirin/Web/H_Pirin.jpg" NDATA jpeg>
-    
     <!NOTATION jpeg SYSTEM "image/jpeg">
     <!NOTATION jpg SYSTEM "image/jpeg">
+
+    <!ENTITY hija-pirin-thumbnail SYSTEM "resources/hija-pirin-thumbnail.jpg" NDATA jpeg>
+    <!ENTITY hija-pirin-1 SYSTEM "resources/hija-pirin-1.jpg" NDATA jpg>
+    <!ENTITY hija-pirin-2 SYSTEM "resources/hija-pirin-2.jpg" NDATA jpg>
+    <!ENTITY hija-pirin-3 SYSTEM "resources/hija-pirin-3.jpg" NDATA jpg>
+
+    <!ENTITY hija-levski-thumbnail SYSTEM "resources/hija-levski-thumbnail.jpg" NDATA jpeg>
+    <!ENTITY hija-levski-1 SYSTEM "resources/hija-levski-1.jpg" NDATA jpg>
+    <!ENTITY hija-levski-2 SYSTEM "resources/hija-levski-2.jpg" NDATA jpg>
+    <!ENTITY hija-levski-3 SYSTEM "resources/hija-levski-3.jpg" NDATA jpg>
+
+    <!ENTITY hija-svejen-thumbnail SYSTEM "resources/hija-svejen-thumbnail.jpg" NDATA jpeg>
+    <!ENTITY hija-svejen-1 SYSTEM "resources/hija-svejen-1.jpg" NDATA jpg>
+    <!ENTITY hija-svejen-2 SYSTEM "resources/hija-svejen-2.jpg" NDATA jpg>
+    <!ENTITY hija-svejen-3 SYSTEM "resources/hija-svejen-3.jpg" NDATA jpg>
+
+    <!ENTITY hija-orfei-thumbnail SYSTEM "resources/hija-orfei-thumbnail.jpg" NDATA jpeg>
+    <!ENTITY hija-orfei-1 SYSTEM "resources/hija-orfei-1.jpg" NDATA jpg>
 ]>
 <?xml-stylesheet type="text/xsl" href="huts.xsl"?>
 <catalog>
     <huts>
         <hut id="hut1" region="pirin-mountain" type="mountain-type">
-            <name>Хижа Пирин</name>
+            <name>Хижа "Пирин"</name>
             <description>
                 Намира се в местността "Трите реки". Представлява масивна триетажна сграда с 80 места. Тоалетните и баните са външни. Хижата е електрифицирана и водоснабдена. Отоплението е на твърдо гориво.
             </description>
@@ -25,12 +41,13 @@
             <contacts>
                 <phone>0876681205</phone>
                 <phone>0896766155</phone>
+                <email>gitsa007@abv.bg</email>
             </contacts>
             <capacity>78</capacity>
             <gallery>
-                <image source="hija-pirin-1.jpg"/>
-                <image source="hija-pirin-2.jpg"/>
-                <image source="hija-pirin-3.jpg"/>
+                <image source="hija-pirin-1"/>
+                <image source="hija-pirin-2"/>
+                <image source="hija-pirin-3"/>
             </gallery>
             <amenities
                 water="yes"
@@ -56,7 +73,188 @@
             <nearby_sites>
                 <site>мотел "Горски рай"</site>
                 <site>хижа "Малина"</site>
+                <site>седловина Тодорова поляна</site>
+                <site>заслон "Тевното езеро"</site>
+                <site>Роженски манастир "Рождество Богородично"</site>
+                <site>хижа "Каменица" (през местност Солището)</site>
+                <site>хижа "Каменица" (през превала между върховете Куклите и Зъбът)</site>
                 <site>хижа "Безбог"</site>
+                <site>хижа "Демяница"</site>
+                <site>хижа "Попови ливади"</site>
+            </nearby_sites>
+        </hut>
+        <hut id="hut2" region="stara-planina-mountain" type="mountain-type">
+            <name>Хижа "Васил Левски"</name>
+            <description>
+                Хижата е разположена над водослива на двата начални притока на р.Стара река. Представлява масивна двуетажна сграда, като заедно с едно сезонно бунгало /12 места/ общият капацитет е около 80 места. Санитарните възли са външни , умивални - външни и вътрешни. Има също и баня. Сградата е водоснабдена, електрифицирана от агрегат и ВЕЦ, отоплението е с печки на твърдо гориво. Разполага с туристическа кухня, столова и лавка.
+            </description>
+            <thumbnail source="hija-levski-thumbnail"/>
+            <location>
+                <mountain>Стара планина</mountain>
+                <coordinates>
+                    <latitude>42.70480</latitude>
+                    <longitude>24.85215</longitude>
+                </coordinates>
+                <altitude>1450</altitude>
+            </location>
+            <contacts>
+                <phone>024110437</phone>
+                <phone>033593436</phone>
+                <phone>0896688523</phone>
+            </contacts>
+            <capacity>80</capacity>
+            <gallery>
+                <image source="hija-levski-1"/>
+                <image source="hija-levski-2"/>
+                <image source="hija-levski-3"/>
+            </gallery>
+            <amenities
+                water="yes"
+                electricity="yes"
+                heating="yes"
+                bathroom="no"
+                shower="no"
+                canteen="yes"
+                restaurant="no"
+                internet="yes"
+                shop="no"
+            />
+            <exit_routes>
+                <route>
+                    <route_name>град Карлово (гара на Подбалканската жп линия и крайна гара на жп линия Пловдив-Карлово)</route_name>
+                    <distance>4:15</distance>
+                </route>
+                <route>
+                    <route_name>горната (ІV) лифтова станция на Сопотския лифт (през хижа "Добрила", летен вариант)</route_name>
+                    <distance>5:10</distance>
+                </route>
+            </exit_routes>
+            <nearby_sites>
+                <site>водопад Карловско пръскало (висок 26 м)</site>
+                <site>хижа "Балкански рози"</site>
+                <site>връх Костенурката (2035 м)</site>
+                <site>хижа "Хубавец" (през хижа "Балкански рози")</site>
+                <site>заслон "Ботев"</site>
+                <site>връх Ботев (2376 м)</site>
+                <site>хижа "Добрила" (летен вариант)</site>
+                <site>хижа "Рай" (летен вариант)</site>
+                <site>хижа "Плевен" (през Видимски превал, летен вариант)</site>
+                <site>хижа "Тъжа" (през връх Ботев)</site>
+            </nearby_sites>
+        </hut>
+        <hut id="hut3" region="sredna-gora-mountain" type="mountain-type">
+            <name>Хижа "Свежен"</name>
+            <description>
+                Намира се в Сърнена Средна гора. Представлява масивна двуетажна сграда с капацитет 24 места, с етажни санитарни възли и бани. Водоснабдена и електрифицирана, отоплението е на печки с твърдо гориво. Хижата разполага със столова и паркинг.
+            </description>
+            <thumbnail source="hija-svejen-thumbnail"/>
+            <location>
+                <mountain></mountain>
+                <coordinates>
+                    <latitude>42.508985</latitude>
+                    <longitude>25.058924</longitude>
+                </coordinates>
+                <altitude>1050</altitude>
+            </location>
+            <contacts>
+                <phone>0885110824</phone>
+                <phone>	0882966248</phone>
+                <email>hija_svejen@abv.bg</email>
+            </contacts>
+            <capacity>24</capacity>
+            <gallery>
+                <image source="hija-svejen-1"/>
+                <image source="hija-svejen-2"/>
+                <image source="hija-svejen-3"/>
+            </gallery>
+            <amenities
+                water="yes"
+                electricity="yes"
+                heating="yes"
+                bathroom="yes"
+                shower="yes"
+                canteen="yes"
+                restaurant="yes"
+                internet="yes"
+                shop="no"
+            />
+            <exit_routes>
+                <route>
+                    <route_name>село Свежен</route_name>
+                    <distance>1:30</distance>
+                </route>
+                <route>
+                    <route_name>гара Калофер</route_name>
+                    <distance>5:00</distance>
+                </route>
+            </exit_routes>
+            <nearby_sites>
+                <site>язовир "Свежен"</site>
+                <site>заслон "Хайдута"</site>
+                <site>гробът на Хаджи Димитър на връх Кадрафил (според една от версиите)</site>
+                <site>местност Манастира</site>
+                <site>хижа "Братан"</site>
+                <site>хижа "Каваклийка"</site>
+            </nearby_sites>
+        </hut>
+        <hut id="hut3" region="rhodopes-mountain" type="mountain-type">
+            <name>Хижа "Орфей"</name>
+            <description>
+                Намира се в м.Топлия извор. Представлява комплекс от три сгради с общ капацитет 44 места с вътрешни и външни санитарни възли и баня. Сградите са водоснабдена и електрифицирана, отоплението е с печки на твърдо гориво. Разполага с туристическа кухня и столова. Районът е подходящ за къмпиране.
+            </description>
+            <thumbnail source="hija-orfei-thumbnail"/>
+            <location>
+                <mountain></mountain>
+                <coordinates>
+                    <latitude>41.70935</latitude>
+                    <longitude>24.30207</longitude>
+                </coordinates>
+                <altitude>1190</altitude>
+            </location>
+            <contacts>
+                <phone>0882966263</phone>
+                <phone>0882966261</phone>
+            </contacts>
+            <capacity>42</capacity>
+            <gallery>
+                <image source="hija-orfei-1"/>
+            </gallery>
+            <amenities
+                water="yes"
+                electricity="yes"
+                heating="yes"
+                bathroom="yes"
+                shower="yes"
+                canteen="yes"
+                restaurant="no"
+                internet="no"
+                shop="no"
+            />
+            <exit_routes>
+                <route>
+                    <route_name>село Борино</route_name>
+                    <distance>1:00</distance>
+                </route>
+                <route>
+                    <route_name>село Тешел (хижа "Тешел")</route_name>
+                    <distance>2:30</distance>
+                </route>
+                <route>
+                    <route_name>град Девин (покрай скалната забележителност Слона в квартал Настан и през село Грохотно)</route_name>
+                    <distance>4:00</distance>
+                </route>
+                <route>
+                    <route_name>град Девин (през местност Равня)</route_name>
+                    <distance>5:00</distance>
+                </route>
+            </exit_routes>
+            <nearby_sites>
+                <site>пещерата Партизанска дупка</site>
+                <site>старинният едногръб Кемеров мост на Девинска река</site>
+                <site>благоустроената Ягодинска пещера</site>
+                <site>горско стопанство "Дженевра"</site>
+                <site>благоустроената пещера Дяволското гърло</site>
+                <site>хижа "Триградски скали"</site>
             </nearby_sites>
         </hut>
     </huts>
