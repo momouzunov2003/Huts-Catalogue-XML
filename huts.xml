@@ -149,7 +149,7 @@
             </description>
             <thumbnail source="hija-svejen-thumbnail"/>
             <location>
-                <mountain></mountain>
+                <mountain>Средна гора</mountain>
                 <coordinates>
                     <latitude>42.508985</latitude>
                     <longitude>25.058924</longitude>
@@ -204,7 +204,7 @@
             </description>
             <thumbnail source="hija-orfei-thumbnail"/>
             <location>
-                <mountain></mountain>
+                <mountain>Родопи</mountain>
                 <coordinates>
                     <latitude>41.70935</latitude>
                     <longitude>24.30207</longitude>
@@ -255,6 +255,223 @@
                 <site>горско стопанство "Дженевра"</site>
                 <site>благоустроената пещера Дяволското гърло</site>
                 <site>хижа "Триградски скали"</site>
+            </nearby_sites>
+        </hut>
+        <hut id="hut4" region="pirin-mountain" type="mountain-type">
+            <name>Хижа "Грънчар"</name>
+            <description>
+            Разположена в източната част на Рила планинана, на северния бряг на езерото Грънчар. Представлява масивна двуетажна сграда с капацитет 65 места с външни санитарни възли и баня. В района на хижата има бунгала, които допълнително увеличават местата за нощувка. Сградата е водоснабдена, електрифицирана от ВЕЦ, отоплението е с печки на твърдо гориво.
+            </description>
+            <thumbnail source="hija-grunchar-thumbnail"/>
+            <location>
+                <mountain>Пирин</mountain>
+                <coordinates>
+                    <latitude>42.12175</latitude>
+                    <longitude>23.593</longitude>
+                </coordinates>
+                <altitude>2187</altitude>
+            </location>
+            <contacts>
+                <phone>0898466388</phone>
+                <phone>0889152225</phone>
+                <phone>0885852337</phone>
+                <email>info@granchar.net</email>
+                <URL>http://www.granchar.net</URL>
+            </contacts>
+            <capacity>150</capacity>
+            <gallery>
+                <image source="hija-grunchar-1"/>
+                <image source="hija-grunchar-2"/>
+                <image source="hija-grunchar-3"/>
+            </gallery>
+            <amenities
+                water="yes"
+                electricity="yes"
+                heating="yes"
+                bathroom="yes"
+                shower="yes"
+                canteen="yes"
+                restaurant="no"
+                internet="no"
+                shop="yes"
+            />
+            <exit_routes>
+                <route>
+                    <route_name>град Якоруда (гара на теснолинейната жп линия Септември-Добринище)</route_name>
+                    <distance>5:30</distance>
+                </route>
+                <route>
+                    <route_name>горната лифтова станция на лифт "Ястребец"</route_name>
+                    <distance>6:30</distance>
+                </route>
+            </exit_routes>
+            <nearby_sites>
+                <site>вр.Мусала/2925м./</site>
+                <site>вр.Суха вапа/2639м./</site>
+                <site>х.Заврачица /по летния път/</site>
+                <site>х.Заврачица /по зимния вариант/</site>
+                <site>х.Трещеник</site>
+                <site>х.Семково</site>
+                <site>х.Рибни езера</site>
+                <site>х.Македония</site>
+            </nearby_sites>
+        </hut>
+        <hut id="hut5" region="rhodopes-mountain" type="mountain-type">
+            <name>хижа "Момчил юнак"</name>
+            <description>
+                Намира се западно от м.Хайдушка поляна. Представлява комплекс от масивна двуетажна сграда и четири дървени бунгала с общ капацитет 45 места. Сградите са водоснабдени, електрифицирани, отоплението е с печки на твърдо гориво и на ток. Разполага с туристическа кухня и столова.
+            </description>
+            <thumbnail source="hija-momchil-unak-thumbnail"/>
+            <location>
+                <mountain>Родопи</mountain>
+                <coordinates>
+                    <latitude>41.70053</latitude>
+                    <longitude>24.80549</longitude>
+                </coordinates>
+                <altitude>1750</altitude>
+            </location>
+            <contacts>
+                <phone>0888267249</phone>
+                <phone>0888933302</phone>
+                <phone>030958383</phone>
+            </contacts>
+            <capacity>45</capacity>
+            <gallery>
+                <image source="hija-momchil-unak-1"/>
+                <image source="hija-momchil-unak-2"/>
+                <image source="hija-momchil-unak-3"/>
+                <image source="hija-momchil-unak-4"/>
+            </gallery>
+            <amenities
+                water="yes"
+                electricity="yes"
+                heating="yes"
+                bathroom="yes"
+                shower="yes"
+                canteen="yes"
+                restaurant="yes"
+                internet="no"
+                shop="no"
+            />
+            <exit_routes>
+                <route>
+                    <route_name>м.Хайдушка поляна</route_name>
+                    <distance>1:00</distance>
+                </route>
+                <route>
+                    <route_name>с.Момчиловци</route_name>
+                    <distance>2:30</distance>
+                </route>
+            </exit_routes>
+            <nearby_sites>
+                <site>х.Преспа</site>
+                <site>х.Свобода</site>
+                <site>х.Студенец</site>
+                <site>х.Перелик</site>
+                <site>х.Пашалийца</site>
+            </nearby_sites>
+        </hut>
+          <hut id="hut6" region="rila-mountain" type="mountain-type">
+            <name>хижа "Заврачица"</name>
+            <description>
+                Намира се в м.Заврачица на левия бряг на Права Марица. Представлява масивна двуетажна сграда с капацитет 75 места с външни санитарни възли и умивални. Хижата е водоснабдена. електрифицирана от аграгат и ВЕЦ, отоплението е с печки на твърдо гориво. Има кухня, столова и лафка.
+            </description>
+            <thumbnail source="hija-zavrachica-thumbnail"/>
+            <location>
+                <mountain>Рила</mountain>
+                <coordinates>
+                    <latitude>42.168</latitude>
+                    <longitude>23.640</longitude>
+                </coordinates>
+                <altitude>2178</altitude>
+            </location>
+            <contacts>
+                <phone>0884791609</phone>
+                <URL>http://www.zavrachica.hit.bg/</URL>
+            </contacts>
+            <capacity>75</capacity>
+            <gallery>
+                <image source="hija-zavrachica-1"/>
+                <image source="hija-zavrachica-2"/>
+                <image source="hija-zavrachica-3"/>
+            </gallery>
+            <amenities
+                water="yes"
+                electricity="yes"
+                heating="yes"
+                bathroom="yes"
+                shower="yes"
+                canteen="yes"
+                restaurant="yes"
+                internet="no"
+                shop="yes"
+            />
+            <exit_routes>
+                <route>
+                    <route_name>гр. Боровец</route_name>
+                    <distance>5:00</distance>
+                </route>
+            </exit_routes>
+            <nearby_sites>
+                <site>вр.Кози връх/2567м.</site>
+                <site>вр.Манчо</site>
+                <site>вр.Янчов връх</site>
+                <site>х.Венетица</site>
+                <site>х.Белмекен</site>
+                <site>х.Грънчар</site>
+                <site>х.Мусала /през вр.Мусала/</site>
+                <site>х.Мусала /край Маричини езера/</site>
+                <site>х.Марица</site>
+                <site>вр.Мусала/2925м.</site>
+            </nearby_sites>
+        </hut>
+          <hut id="hut7" region="other-mountain" type="mountain-type">
+            <name>хижа "Яна"</name>
+            <description>
+                масивна триетажна сграда с капацитет 69 места, открита през 1995 г. по случай 100-годишнината на организирания туризъм в България
+            </description>
+            <thumbnail source="hija-yana-thumbnail"/>
+            <location>
+                <mountain>Влахина</mountain>
+                <coordinates>
+                    <latitude>42.161655</latitude>
+                    <longitude>22.977196</longitude>
+                </coordinates>
+                <altitude>740</altitude>
+            </location>
+            <contacts>
+                <phone>0885652796</phone>
+                <phone>0896688319</phone>
+            </contacts>
+            <capacity>55</capacity>
+            <gallery>
+                <image source="hija-yana-1"/>
+                <image source="hija-yana-2"/>
+                <image source="hija-yana-3"/>
+            </gallery>
+            <amenities
+                water="yes"
+                electricity="yes"
+                heating="yes"
+                bathroom="yes"
+                shower="yes"
+                canteen="no"
+                restaurant="yes"
+                internet="yes"
+                shop="no info"
+            />
+            <exit_routes>
+                <route>
+                    <route_name>гр. Бобошево</route_name>
+                    <distance>1:00</distance>
+                </route>
+            </exit_routes>
+            <nearby_sites>
+                <site>Бобошевски манастир "Св. Димитър"</site>
+                <site>параклис "Св. св. Петър и Павел"</site>
+                <site>връх Бобошевски Руен (1134 м)</site>
+                <site>параклис "Св. Архангел Михаил"</site>
+                <site>пещерата над село Скрино, в която е живял Св. Иван Рилски и Руенски манастир "Св. Иван Рилски"</site>
             </nearby_sites>
         </hut>
     </huts>
