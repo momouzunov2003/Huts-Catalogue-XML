@@ -19,10 +19,10 @@
 <!ELEMENT longitude (#PCDATA)>
 <!ELEMENT altitude (#PCDATA)>
 
-<!ELEMENT contacts (phone+, email*, URL*)>
+<!ELEMENT contacts (phone+, email*, url*)>
 <!ELEMENT phone (#PCDATA)>
 <!ELEMENT email (#PCDATA)>
-<!ELEMENT URL (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
 
 <!ELEMENT capacity (#PCDATA)>
 
@@ -31,15 +31,15 @@
 <!ATTLIST image source ENTITY #REQUIRED>
 
 <!ELEMENT amenities EMPTY>
-<!ATTLIST amenities water (yes|no|no info) #REQUIRED
-                    electricity (yes|no|no info) #REQUIRED
-                    heating (yes|no|no info) #REQUIRED
-                    bathroom (yes|no|no info) #REQUIRED
-                    shower (yes|no|no info) #REQUIRED
-                    canteen (yes|no|no info) #REQUIRED
-                    restaurant (yes|no|no info) #REQUIRED
-                    internet (yes|no|no info) #REQUIRED
-                    shop (yes|no|no info) #REQUIRED
+<!ATTLIST amenities water (yes|no|no_info) #REQUIRED
+                    electricity (yes|no|no_info) #REQUIRED
+                    heating (yes|no|no_info) #REQUIRED
+                    bathroom (yes|no|no_info) #REQUIRED
+                    shower (yes|no|no_info) #REQUIRED
+                    canteen (yes|no|no_info) #REQUIRED
+                    restaurant (yes|no|no_info) #REQUIRED
+                    internet (yes|no|no_info) #REQUIRED
+                    shop (yes|no|no_info) #REQUIRED
 >
 
 <!ELEMENT exit_routes (route*)>
