@@ -20,6 +20,27 @@
 
     <!ENTITY hija-orfei-thumbnail SYSTEM "resources/hija-orfei-thumbnail.jpg" NDATA jpeg>
     <!ENTITY hija-orfei-1 SYSTEM "resources/hija-orfei-1.jpg" NDATA jpg>
+
+    <!ENTITY hija-grunchar-thumbnail SYSTEM "resources/hija-grunchar-thumbnail.jpg" NDATA jpeg>
+    <!ENTITY hija-grunchar-1 SYSTEM "resources/hija-grunchar-1.jpg" NDATA jpg>
+    <!ENTITY hija-grunchar-2 SYSTEM "resources/hija-grunchar-2.jpg" NDATA jpg>
+    <!ENTITY hija-grunchar-3 SYSTEM "resources/hija-grunchar-3.jpg" NDATA jpg>
+
+    <!ENTITY hija-momchil-unak-thumbnail SYSTEM "resources/hija-momchil-unak-thumbnail.jpg" NDATA jpeg>
+    <!ENTITY hija-momchil-unak-1 SYSTEM "resources/hija-momchil-unak-1.jpg" NDATA jpg>
+    <!ENTITY hija-momchil-unak-2 SYSTEM "resources/hija-momchil-unak-2.jpg" NDATA jpg>
+    <!ENTITY hija-momchil-unak-3 SYSTEM "resources/hija-momchil-unak-3.jpg" NDATA jpg>
+    <!ENTITY hija-momchil-unak-4 SYSTEM "resources/hija-momchil-unak-4.jpg" NDATA jpg>
+
+    <!ENTITY hija-zavrachica-thumbnail SYSTEM "resources/hija-zavrachica-thumbnail.jpg" NDATA jpeg>
+    <!ENTITY hija-zavrachica-1 SYSTEM "resources/hija-zavrachica-1.jpg" NDATA jpg>
+    <!ENTITY hija-zavrachica-2 SYSTEM "resources/hija-zavrachica-2.jpg" NDATA jpg>
+    <!ENTITY hija-zavrachica-3 SYSTEM "resources/hija-zavrachica-3.jpg" NDATA jpg>
+
+    <!ENTITY hija-yana-thumbnail SYSTEM "resources/hija-yana-thumbnail.jpg" NDATA jpeg>
+    <!ENTITY hija-yana-1 SYSTEM "resources/hija-yana-1.jpg" NDATA jpg>
+    <!ENTITY hija-yana-2 SYSTEM "resources/hija-yana-2.jpg" NDATA jpg>
+    <!ENTITY hija-yana-3 SYSTEM "resources/hija-yana-3.jpg" NDATA jpg>
 ]>
 <?xml-stylesheet type="text/xsl" href="huts.xsl"?>
 <catalog>
