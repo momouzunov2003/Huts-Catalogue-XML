@@ -71,16 +71,46 @@
                 </route>
             </exit_routes>
             <nearby_sites>
-                <site>мотел "Горски рай"</site>
-                <site>хижа "Малина"</site>
-                <site>седловина Тодорова поляна</site>
-                <site>заслон "Тевното езеро"</site>
-                <site>Роженски манастир "Рождество Богородично"</site>
-                <site>хижа "Каменица" (през местност Солището)</site>
-                <site>хижа "Каменица" (през превала между върховете Куклите и Зъбът)</site>
-                <site>хижа "Безбог"</site>
-                <site>хижа "Демяница"</site>
-                <site>хижа "Попови ливади"</site>
+                <site>
+                    <site_name>мотел "Горски рай"</site_name>
+                    <distance>00:04</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Малина"</site_name>
+                    <distance>1:45</distance>
+                </site>
+                <site>
+                    <site_name>седловина Тодорова поляна</site_name>
+                    <distance>3:00</distance>
+                </site>
+                <site>
+                    <site_name>заслон "Тевното езеро"</site_name>
+                    <distance>3:30</distance>
+                </site>
+                <site>
+                    <site_name>Роженски манастир "Рождество Богородично"</site_name>
+                    <distance>4:30</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Каменица" (през местност Солището)</site_name>
+                    <distance>5:15</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Каменица" (през превала между върховете Куклите и Зъбът)</site_name>
+                    <distance>5:45</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Безбог"</site_name>
+                    <distance>6:00</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Демяница"</site_name>
+                    <distance>6:00</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Попови ливади"</site_name>
+                    <distance>8:00</distance>
+                </site>
             </nearby_sites>
         </hut>
         <hut id="hut2" region="stara-planina-mountain" type="mountain-type">
@@ -130,16 +160,46 @@
                 </route>
             </exit_routes>
             <nearby_sites>
-                <site>водопад Карловско пръскало (висок 26 м)</site>
-                <site>хижа "Балкански рози"</site>
-                <site>връх Костенурката (2035 м)</site>
-                <site>хижа "Хубавец" (през хижа "Балкански рози")</site>
-                <site>заслон "Ботев"</site>
-                <site>връх Ботев (2376 м)</site>
-                <site>хижа "Добрила" (летен вариант)</site>
-                <site>хижа "Рай" (летен вариант)</site>
-                <site>хижа "Плевен" (през Видимски превал, летен вариант)</site>
-                <site>хижа "Тъжа" (през връх Ботев)</site>
+                <site>
+                    <site_name>водопад Карловско пръскало (висок 26 м)</site_name>
+                    <distance>00:10</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Балкански рози"</site_name>
+                    <distance>1:15</distance>
+                </site>
+                <site>
+                    <site_name>връх Костенурката (2035 м)</site_name>
+                    <distance>1:30</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Хубавец" (през хижа "Балкански рози")</site_name>
+                    <distance>1:45</distance>
+                </site>
+                <site>
+                    <site_name>заслон "Ботев"</site_name>
+                    <distance>3:15</distance>
+                </site>
+                <site>
+                    <site_name>връх Ботев (2376 м)</site_name>
+                    <distance>4:00</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Добрила" (летен вариант)</site_name>
+                    <distance>4:30</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Рай" (летен вариант)</site_name>
+                    <distance>4:30</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Плевен" (през Видимски превал, летен вариант)</site_name>
+                    <distance>5:30</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Тъжа" (през връх Ботев)</site_name>
+                    <distance>7:00</distance>
+                </site>
             </nearby_sites>
         </hut>
         <hut id="hut3" region="sredna-gora-mountain" type="mountain-type">
@@ -189,15 +249,33 @@
                 </route>
             </exit_routes>
             <nearby_sites>
-                <site>язовир "Свежен"</site>
-                <site>заслон "Хайдута"</site>
-                <site>гробът на Хаджи Димитър на връх Кадрафил (според една от версиите)</site>
-                <site>местност Манастира</site>
-                <site>хижа "Братан"</site>
-                <site>хижа "Каваклийка"</site>
+                <site>
+                    <site_name>язовир "Свежен"</site_name>
+                    <distance>1:00</distance>
+                </site>
+                <site>
+                    <site_name>заслон "Хайдута"</site_name>
+                    <distance>1:00</distance>
+                </site>
+                <site>
+                    <site_name>гробът на Хаджи Димитър на връх Кадрафил (според една от версиите)</site_name>
+                    <distance>3 km</distance>
+                </site>
+                <site>
+                    <site_name>местност Манастира</site_name>
+                    <distance>1:00</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Братан"</site_name>
+                    <distance>3:15</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Каваклийка"</site_name>
+                    <distance>6:15</distance>
+                </site>
             </nearby_sites>
         </hut>
-        <hut id="hut3" region="rhodopes-mountain" type="mountain-type">
+        <hut id="hut4" region="rhodopes-mountain" type="mountain-type">
             <name>Хижа "Орфей"</name>
             <description>
                 Намира се в м.Топлия извор. Представлява комплекс от три сгради с общ капацитет 44 места с вътрешни и външни санитарни възли и баня. Сградите са водоснабдена и електрифицирана, отоплението е с печки на твърдо гориво. Разполага с туристическа кухня и столова. Районът е подходящ за къмпиране.
@@ -249,15 +327,33 @@
                 </route>
             </exit_routes>
             <nearby_sites>
-                <site>пещерата Партизанска дупка</site>
-                <site>старинният едногръб Кемеров мост на Девинска река</site>
-                <site>благоустроената Ягодинска пещера</site>
-                <site>горско стопанство "Дженевра"</site>
-                <site>благоустроената пещера Дяволското гърло</site>
-                <site>хижа "Триградски скали"</site>
+                <site>
+                    <site_name>пещерата Партизанска дупка</site_name>
+                    <distance>0.8 km</distance>
+                </site>
+                <site>
+                    <site_name>старинният едногръб Кемеров мост на Девинска река</site_name>
+                    <distance>1:30</distance>
+                </site>
+                <site>
+                    <site_name>благоустроената Ягодинска пещера</site_name>
+                    <distance>18 km</distance>
+                </site>
+                <site>
+                    <site_name>горско стопанство "Дженевра"</site_name>
+                    <distance>4:00</distance>
+                </site>
+                <site>
+                    <site_name>благоустроената пещера Дяволското гърло</site_name>
+                    <distance>21.5 km</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Триградски скали"</site_name>
+                    <distance>23 km</distance>
+                </site>
             </nearby_sites>
         </hut>
-        <hut id="hut4" region="pirin-mountain" type="mountain-type">
+        <hut id="hut5" region="pirin-mountain" type="mountain-type">
             <name>Хижа "Грънчар"</name>
             <description>
             Разположена в източната част на Рила планинана, на северния бряг на езерото Грънчар. Представлява масивна двуетажна сграда с капацитет 65 места с външни санитарни възли и баня. В района на хижата има бунгала, които допълнително увеличават местата за нощувка. Сградата е водоснабдена, електрифицирана от ВЕЦ, отоплението е с печки на твърдо гориво.
@@ -276,7 +372,7 @@
                 <phone>0889152225</phone>
                 <phone>0885852337</phone>
                 <email>info@granchar.net</email>
-                <URL>http://www.granchar.net</URL>
+                <url>http://www.granchar.net</url>
             </contacts>
             <capacity>150</capacity>
             <gallery>
@@ -306,17 +402,41 @@
                 </route>
             </exit_routes>
             <nearby_sites>
-                <site>вр.Мусала/2925м./</site>
-                <site>вр.Суха вапа/2639м./</site>
-                <site>х.Заврачица /по летния път/</site>
-                <site>х.Заврачица /по зимния вариант/</site>
-                <site>х.Трещеник</site>
-                <site>х.Семково</site>
-                <site>х.Рибни езера</site>
-                <site>х.Македония</site>
+                <site>
+                    <site_name>вр. Мусала (2925м.)</site_name>
+                    <distance>5:00</distance>
+                </site>
+                <site>
+                    <site_name>вр. Суха вапа (2639м.)</site_name>
+                    <distance>2:00</distance>
+                </site>
+                <site>
+                    <site_name>х. Заврачица (по летния път)</site_name>
+                    <distance>3:00</distance>
+                </site>
+                <site>
+                    <site_name>х. Заврачица (по зимния вариант)</site_name>
+                    <distance>6:00</distance>
+                </site>
+                <site>
+                    <site_name>х. Трещеник</site_name>
+                    <distance>2:30</distance>
+                </site>
+                <site>
+                    <site_name>х. Семково</site_name>
+                    <distance>6:00</distance>
+                </site>
+                <site>
+                    <site_name>х. Рибни езера</site_name>
+                    <distance>8:00</distance>
+                </site>
+                <site>
+                    <site_name>х. Македония</site_name>
+                    <distance>9:00</distance>
+                </site>
             </nearby_sites>
         </hut>
-        <hut id="hut5" region="rhodopes-mountain" type="mountain-type">
+        <hut id="hut6" region="rhodopes-mountain" type="mountain-type">
             <name>хижа "Момчил юнак"</name>
             <description>
                 Намира се западно от м.Хайдушка поляна. Представлява комплекс от масивна двуетажна сграда и четири дървени бунгала с общ капацитет 45 места. Сградите са водоснабдени, електрифицирани, отоплението е с печки на твърдо гориво и на ток. Разполага с туристическа кухня и столова.
@@ -364,14 +484,29 @@
                 </route>
             </exit_routes>
             <nearby_sites>
-                <site>х.Преспа</site>
-                <site>х.Свобода</site>
-                <site>х.Студенец</site>
-                <site>х.Перелик</site>
-                <site>х.Пашалийца</site>
+                <site>
+                    <site_name>х. Преспа</site_name>
+                    <distance>2:30</distance>
+                </site>
+                <site>
+                    <site_name>х. Свобода</site_name>
+                    <distance>4:30</distance>
+                </site>
+                <site>
+                    <site_name>х. Студенец</site_name>
+                    <distance>4:30</distance>
+                </site>
+                <site>
+                    <site_name>х. Перелик</site_name>
+                    <distance>6:00</distance>
+                </site>
+                <site>
+                    <site_name>х. Пашалийца</site_name>
+                    <distance>6:30</distance>
+                </site>
             </nearby_sites>
         </hut>
-          <hut id="hut6" region="rila-mountain" type="mountain-type">
+          <hut id="hut7" region="rila-mountain" type="mountain-type">
             <name>хижа "Заврачица"</name>
             <description>
                 Намира се в м.Заврачица на левия бряг на Права Марица. Представлява масивна двуетажна сграда с капацитет 75 места с външни санитарни възли и умивални. Хижата е водоснабдена. електрифицирана от аграгат и ВЕЦ, отоплението е с печки на твърдо гориво. Има кухня, столова и лафка.
@@ -387,7 +522,7 @@
             </location>
             <contacts>
                 <phone>0884791609</phone>
-                <URL>http://www.zavrachica.hit.bg/</URL>
+                <url>http://www.zavrachica.hit.bg/</url>
             </contacts>
             <capacity>75</capacity>
             <gallery>
@@ -413,19 +548,49 @@
                 </route>
             </exit_routes>
             <nearby_sites>
-                <site>вр.Кози връх/2567м.</site>
-                <site>вр.Манчо</site>
-                <site>вр.Янчов връх</site>
-                <site>х.Венетица</site>
-                <site>х.Белмекен</site>
-                <site>х.Грънчар</site>
-                <site>х.Мусала /през вр.Мусала/</site>
-                <site>х.Мусала /край Маричини езера/</site>
-                <site>х.Марица</site>
-                <site>вр.Мусала/2925м.</site>
+                <site>
+                    <site_name>вр. Кози връх (2567 м.)</site_name>
+                    <distance>1:30</distance>
+                </site>
+                <site>
+                    <site_name>вр. Манчо</site_name>
+                    <distance>1:45</distance>
+                </site>
+                <site>
+                    <site_name>вр. Янчов връх</site_name>
+                    <distance>1:00</distance>
+                </site>
+                <site>
+                    <site_name>х. Венетица</site_name>
+                    <distance>8:00</distance>
+                </site>
+                <site>
+                    <site_name>х. Белмекен</site_name>
+                    <distance>6:30</distance>
+                </site>
+                <site>
+                    <site_name>х. Грънчар</site_name>
+                    <distance>3:00</distance>
+                </site>
+                <site>
+                    <site_name>х. Мусала (през вр. Мусала)</site_name>
+                    <distance>5:30</distance>
+                </site>
+                <site>
+                    <site_name>х. Мусала (край Маричини езера)</site_name>
+                    <distance>5:00</distance>
+                </site>
+                <site>
+                    <site_name>х. Марица</site_name>
+                    <distance>1:00</distance>
+                </site>
+                <site>
+                    <site_name>вр. Мусала</site_name>
+                    <distance>5:00</distance>
+                </site>
             </nearby_sites>
         </hut>
-          <hut id="hut7" region="other-mountain" type="mountain-type">
+          <hut id="hut8" region="other-mountain" type="mountain-type">
             <name>хижа "Яна"</name>
             <description>
                 масивна триетажна сграда с капацитет 69 места, открита през 1995 г. по случай 100-годишнината на организирания туризъм в България
@@ -458,7 +623,7 @@
                 canteen="no"
                 restaurant="yes"
                 internet="yes"
-                shop="no info"
+                shop="no_info"
             />
             <exit_routes>
                 <route>
@@ -467,11 +632,26 @@
                 </route>
             </exit_routes>
             <nearby_sites>
-                <site>Бобошевски манастир "Св. Димитър"</site>
-                <site>параклис "Св. св. Петър и Павел"</site>
-                <site>връх Бобошевски Руен (1134 м)</site>
-                <site>параклис "Св. Архангел Михаил"</site>
-                <site>пещерата над село Скрино, в която е живял Св. Иван Рилски и Руенски манастир "Св. Иван Рилски"</site>
+                <site>
+                    <site_name>Бобошевски манастир "Св. Димитър"</site_name>
+                    <distance>00:05</distance>
+                </site>
+                <site>
+                    <site_name>параклис "Св. св. Петър и Павел"</site_name>
+                    <distance>00:25</distance>
+                </site>
+                <site>
+                    <site_name>връх Бобошевски Руен (1134 м)</site_name>
+                    <distance>1:30</distance>
+                </site>
+                <site>
+                    <site_name>параклис "Св. Архангел Михаил"</site_name>
+                    <distance>1:30</distance>
+                </site>
+                <site>
+                    <site_name>пещерата над село Скрино, в която е живял Св. Иван Рилски и Руенски манастир "Св. Иван Рилски"</site_name>
+                    <distance>1:45</distance>
+                </site>
             </nearby_sites>
         </hut>
     </huts>
