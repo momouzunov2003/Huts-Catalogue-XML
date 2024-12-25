@@ -9,7 +9,7 @@
 <!ELEMENT description (#PCDATA)>
 
 <!ELEMENT thumbnail EMPTY>
-<!ATTLIST thumbnail source ENTITY #REQUIRED>
+<!ATTLIST thumbnail source CDATA #REQUIRED>
 
 <!ELEMENT location (mountain, address?, coordinates, altitude)>
 <!ELEMENT mountain (#PCDATA)>
@@ -28,7 +28,7 @@
 
 <!ELEMENT gallery (image*)>
 <!ELEMENT image EMPTY>
-<!ATTLIST image source ENTITY #REQUIRED>
+<!ATTLIST image source CDATA #REQUIRED>
 
 <!ELEMENT amenities EMPTY>
 <!ATTLIST amenities water (yes|no|no_info) #REQUIRED
