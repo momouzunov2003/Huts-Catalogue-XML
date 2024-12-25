@@ -45,10 +45,11 @@
 <!ELEMENT exit_routes (route*)>
 <!ELEMENT route (route_name, distance?)>
 <!ELEMENT route_name (#PCDATA)>
-<!ELEMENT distance (#PCDATA) >
 
 <!ELEMENT nearby_sites (site*)>
-<!ELEMENT site (#PCDATA)>
+<!ELEMENT site (site_name, distance?)>
+<!ELEMENT site_name (#PCDATA)>
+<!ELEMENT distance (#PCDATA)>
 
 <!ELEMENT regions (region*)>
 <!ELEMENT region (#PCDATA)>
