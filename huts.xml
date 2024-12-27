@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE catalog SYSTEM "huts.dtd" [
     <!NOTATION jpeg SYSTEM "image/jpeg">
-    <!NOTATION jpg SYSTEM "image/jpeg">
+    <!NOTATION jpg SYSTEM "image/jpg">
 
     <!ENTITY hija-pirin-thumbnail SYSTEM "resources/hija-pirin-thumbnail.jpg" NDATA jpeg>
     <!ENTITY hija-pirin-1 SYSTEM "resources/hija-pirin-1.jpg" NDATA jpg>
