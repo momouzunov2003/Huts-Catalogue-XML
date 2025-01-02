@@ -30,7 +30,7 @@ def html_to_pdf(html_file):
         exit(1)
     pdf_file = html_file.split(".")[0] + ".pdf"
     print(f"Rendering {html_file} to {pdf_file}...")
-    os.system(f"wkhtmltopdf --encoding utf-8 {html_file} {pdf_file}")
+    os.system(f"wkhtmltopdf --encoding utf-8 --enable-local-file-access {html_file} {pdf_file}")
     print("Done.")
     return pdf_file
 
