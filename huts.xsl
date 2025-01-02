@@ -82,9 +82,29 @@
                                     <th>Състояние</th>
                                 </tr>
                             <xsl:for-each select="amenities/@*">    
-                            <tr>                        
-                                <td><xsl:value-of select="name()"/></td>
-                                <td><xsl:value-of select="."/></td>
+                            <tr>   
+                                <xsl:choose>
+                                    <xsl:when test="name() = 'water'"><td>Вода</td></xsl:when>
+                                    <xsl:when test="name() = 'electricity'"><td>Електричество</td></xsl:when>
+                                    <xsl:when test="name() = 'heating'"><td>Отопление</td></xsl:when>
+                                    <xsl:when test="name() = 'bathroom'"><td>Тоалетна</td></xsl:when>
+                                    <xsl:when test="name() = 'shower'"><td>Баня</td></xsl:when>
+                                    <xsl:when test="name() = 'canteen'"><td>Столова</td></xsl:when>
+                                    <xsl:when test="name() = 'restaurant'"><td>Ресторант</td></xsl:when>
+                                    <xsl:when test="name() = 'internet'"><td>Интернет</td></xsl:when>
+                                    <xsl:when test="name() = 'shop'"><td>Магазин</td></xsl:when>
+                                </xsl:choose>                     
+                                <xsl:choose>
+                                    <xsl:when test=". = 'yes'">
+                                        <td>Да</td>
+                                    </xsl:when>
+                                    <xsl:when test=". = 'no'">
+                                        <td>Не</td>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <td>Няма информация</td>
+                                    </xsl:otherwise>
+                                </xsl:choose>
                             </tr>
                             </xsl:for-each>
                             </table></li>
