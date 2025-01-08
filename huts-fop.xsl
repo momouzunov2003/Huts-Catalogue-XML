@@ -111,6 +111,23 @@
                                     </fo:table-body>
                                 </fo:table>
                             </fo:block>
+                            <fo:block>
+                                <fo:inline font-weight="bold">Съседни обекти: </fo:inline>
+                                <fo:table border="1pt solid black" table-layout="fixed">
+                                    <fo:table-body>
+                                        <xsl:for-each select="nearby_sites/site">
+                                            <fo:table-row>
+                                                <fo:table-cell>
+                                                    <fo:block><xsl:value-of select="site_name"/></fo:block>
+                                                </fo:table-cell>
+                                                <fo:table-cell>
+                                                    <fo:block><xsl:value-of select="distance"/></fo:block>
+                                                </fo:table-cell>
+                                            </fo:table-row>
+                                        </xsl:for-each>
+                                    </fo:table-body>
+                                </fo:table>
+                            </fo:block>
                         </fo:block>
                     </xsl:for-each>
                 </fo:flow>
