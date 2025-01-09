@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fo="http://www.w3.org/1999/XSL/Format">
-
     <xsl:template match="/">
         <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
             <fo:layout-master-set>
@@ -11,12 +10,12 @@
             <fo:page-sequence master-reference="A4">
                 <fo:flow flow-name="xsl-region-body">
                     <xsl:for-each select="catalog/huts/hut">
-                        <fo:block font-family="Arial">
+                        <fo:block font-family="Arial" page-break-after="always">
                             <fo:block font-size="14pt" font-weight="bold" space-after="10pt">
                                 <xsl:value-of select="name"/>
                             </fo:block>
                             <fo:block>
-                                <fo:external-graphic src="{unparsed-entity-uri(thumbnail/@source)}" content-width="5cm"/>
+                                <fo:external-graphic src="../{thumbnail/@source}" content-height="scale-to-fit"  content-width="10cm" scaling="non-uniform"/>
                             </fo:block>
                             <fo:block space-after="10pt">
                                 <fo:inline font-weight="bold">Описание: </fo:inline>
@@ -122,6 +121,22 @@
                                                 </fo:table-cell>
                                                 <fo:table-cell>
                                                     <fo:block><xsl:value-of select="distance"/></fo:block>
+                                                </fo:table-cell>
+                                            </fo:table-row>
+                                        </xsl:for-each>
+                                    </fo:table-body>
+                                </fo:table>
+                            </fo:block>
+                            <fo:block>
+                                <fo:inline font-weight="bold">Снимки: </fo:inline>
+                                <fo:table border="1pt solid black" table-layout="fixed">
+                                    <fo:table-body>
+                                        <xsl:for-each select="gallery/image">
+                                            <fo:table-row>
+                                                <fo:table-cell>
+                                                    <fo:block>
+                                                        <fo:external-graphic src="../{@source}" content-height="scale-to-fit"  content-width="10cm" scaling="non-uniform"/>
+                                                    </fo:block>
                                                 </fo:table-cell>
                                             </fo:table-row>
                                         </xsl:for-each>
