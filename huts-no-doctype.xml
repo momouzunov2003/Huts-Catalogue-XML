@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <huts>
+        <hut id="hut1" region="pirin-mountain" type="mountain-type">
+            <name>Хижа "Пирин"</name>
+            <description>
+                Намира се в местността "Трите реки". Представлява масивна триетажна сграда с 80 места. Тоалетните и баните са външни. Хижата е електрифицирана и водоснабдена. Отоплението е на твърдо гориво.
+            </description>
+            <thumbnail source="resources/hija-pirin-thumbnail.jpg"/>
+            <location>
+                <mountain>Северен Пирин</mountain>
+                <coordinates>
+                    <latitude>41.631786</latitude>
+                    <longitude>23.497795</longitude>
+                </coordinates>
+                <altitude>1620</altitude>
+            </location>
+            <contacts>
+                <phone>0876681205</phone>
+                <phone>0896766155</phone>
+                <email>gitsa007@abv.bg</email>
+            </contacts>
+            <capacity>78</capacity>
+            <gallery>
+                <image source="resources/hija-pirin-1.jpg"/>
+                <image source="resources/hija-pirin-2.jpg"/>
+                <image source="resources/hija-pirin-3.jpg"/>
+            </gallery>
+            <amenities water="yes" electricity="yes" heating="yes" bathroom="yes" shower="yes" canteen="yes" restaurant="yes" internet="no" shop="yes"/>
+            <exit_routes>
+                <route>
+                    <route_name>село Пирин</route_name>
+                    <distance>4:30</distance>
+                </route>
+                <route>
+                    <route_name>град Мелник</route_name>
+                    <distance>6:00</distance>
+                </route>
+            </exit_routes>
+            <nearby_sites>
+                <site>
+                    <site_name>мотел "Горски рай"</site_name>
+                    <distance>00:04</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Малина"</site_name>
+                    <distance>1:45</distance>
+                </site>
+                <site>
+                    <site_name>седловина Тодорова поляна</site_name>
+                    <distance>3:00</distance>
+                </site>
+                <site>
+                    <site_name>заслон "Тевното езеро"</site_name>
+                    <distance>3:30</distance>
+                </site>
+                <site>
+                    <site_name>Роженски манастир "Рождество Богородично"</site_name>
+                    <distance>4:30</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Каменица" (през местност Солището)</site_name>
+                    <distance>5:15</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Каменица" (през превала между върховете Куклите и Зъбът)</site_name>
+                    <distance>5:45</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Безбог"</site_name>
+                    <distance>6:00</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Демяница"</site_name>
+                    <distance>6:00</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Попови ливади"</site_name>
+                    <distance>8:00</distance>
+                </site>
+            </nearby_sites>
+        </hut>
+        <hut id="hut2" region="stara-planina-mountain" type="mountain-type">
+            <name>Хижа "Васил Левски"</name>
+            <description>
+                Хижата е разположена над водослива на двата начални притока на р.Стара река. Представлява масивна двуетажна сграда, като заедно с едно сезонно бунгало /12 места/ общият капацитет е около 80 места. Санитарните възли са външни , умивални - външни и вътрешни. Има също и баня. Сградата е водоснабдена, електрифицирана от агрегат и ВЕЦ, отоплението е с печки на твърдо гориво. Разполага с туристическа кухня, столова и лавка.
+            </description>
+            <thumbnail source="resources/hija-levski-thumbnail.jpg"/>
+            <location>
+                <mountain>Стара планина</mountain>
+                <coordinates>
+                    <latitude>42.70480</latitude>
+                    <longitude>24.85215</longitude>
+                </coordinates>
+                <altitude>1450</altitude>
+            </location>
+            <contacts>
+                <phone>024110437</phone>
+                <phone>033593436</phone>
+                <phone>0896688523</phone>
+            </contacts>
+            <capacity>80</capacity>
+            <gallery>
+                <image source="resources/hija-levski-1.jpg"/>
+                <image source="resources/hija-levski-2.jpg"/>
+                <image source="resources/hija-levski-3.jpg"/>
+            </gallery>
+            <amenities water="yes" electricity="yes" heating="yes" bathroom="no" shower="no" canteen="yes" restaurant="no" internet="yes" shop="no"/>
+            <exit_routes>
+                <route>
+                    <route_name>град Карлово (гара на Подбалканската жп линия и крайна гара на жп линия Пловдив-Карлово)</route_name>
+                    <distance>4:15</distance>
+                </route>
+                <route>
+                    <route_name>горната (ІV) лифтова станция на Сопотския лифт (през хижа "Добрила", летен вариант)</route_name>
+                    <distance>5:10</distance>
+                </route>
+            </exit_routes>
+            <nearby_sites>
+                <site>
+                    <site_name>водопад Карловско пръскало (висок 26 м)</site_name>
+                    <distance>00:10</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Балкански рози"</site_name>
+                    <distance>1:15</distance>
+                </site>
+                <site>
+                    <site_name>връх Костенурката (2035 м)</site_name>
+                    <distance>1:30</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Хубавец" (през хижа "Балкански рози")</site_name>
+                    <distance>1:45</distance>
+                </site>
+                <site>
+                    <site_name>заслон "Ботев"</site_name>
+                    <distance>3:15</distance>
+                </site>
+                <site>
+                    <site_name>връх Ботев (2376 м)</site_name>
+                    <distance>4:00</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Добрила" (летен вариант)</site_name>
+                    <distance>4:30</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Рай" (летен вариант)</site_name>
+                    <distance>4:30</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Плевен" (през Видимски превал, летен вариант)</site_name>
+                    <distance>5:30</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Тъжа" (през връх Ботев)</site_name>
+                    <distance>7:00</distance>
+                </site>
+            </nearby_sites>
+        </hut>
+        <hut id="hut3" region="sredna-gora-mountain" type="mountain-type">
+            <name>Хижа "Свежен"</name>
+            <description>
+                Намира се в Сърнена Средна гора. Представлява масивна двуетажна сграда с капацитет 24 места, с етажни санитарни възли и бани. Водоснабдена и електрифицирана, отоплението е на печки с твърдо гориво. Хижата разполага със столова и паркинг.
+            </description>
+            <thumbnail source="resources/hija-svejen-thumbnail.jpg"/>
+            <location>
+                <mountain>Средна гора</mountain>
+                <coordinates>
+                    <latitude>42.508985</latitude>
+                    <longitude>25.058924</longitude>
+                </coordinates>
+                <altitude>1050</altitude>
+            </location>
+            <contacts>
+                <phone>0885110824</phone>
+                <phone>	0882966248</phone>
+                <email>hija_svejen@abv.bg</email>
+            </contacts>
+            <capacity>24</capacity>
+            <gallery>
+                <image source="resources/hija-svejen-1.jpg"/>
+                <image source="resources/hija-svejen-2.jpg"/>
+                <image source="resources/hija-svejen-3.jpg"/>
+            </gallery>
+            <amenities water="yes" electricity="yes" heating="yes" bathroom="yes" shower="yes" canteen="yes" restaurant="yes" internet="yes" shop="no"/>
+            <exit_routes>
+                <route>
+                    <route_name>село Свежен</route_name>
+                    <distance>1:30</distance>
+                </route>
+                <route>
+                    <route_name>гара Калофер</route_name>
+                    <distance>5:00</distance>
+                </route>
+            </exit_routes>
+            <nearby_sites>
+                <site>
+                    <site_name>язовир "Свежен"</site_name>
+                    <distance>1:00</distance>
+                </site>
+                <site>
+                    <site_name>заслон "Хайдута"</site_name>
+                    <distance>1:00</distance>
+                </site>
+                <site>
+                    <site_name>гробът на Хаджи Димитър на връх Кадрафил (според една от версиите)</site_name>
+                    <distance>3 km</distance>
+                </site>
+                <site>
+                    <site_name>местност Манастира</site_name>
+                    <distance>1:00</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Братан"</site_name>
+                    <distance>3:15</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Каваклийка"</site_name>
+                    <distance>6:15</distance>
+                </site>
+            </nearby_sites>
+        </hut>
+        <hut id="hut4" region="rhodopes-mountain" type="mountain-type">
+            <name>Хижа "Орфей"</name>
+            <description>
+                Намира се в м.Топлия извор. Представлява комплекс от три сгради с общ капацитет 44 места с вътрешни и външни санитарни възли и баня. Сградите са водоснабдена и електрифицирана, отоплението е с печки на твърдо гориво. Разполага с туристическа кухня и столова. Районът е подходящ за къмпиране.
+            </description>
+            <thumbnail source="resources/hija-orfei-thumbnail.jpg"/>
+            <location>
+                <mountain>Родопи</mountain>
+                <coordinates>
+                    <latitude>41.70935</latitude>
+                    <longitude>24.30207</longitude>
+                </coordinates>
+                <altitude>1190</altitude>
+            </location>
+            <contacts>
+                <phone>0882966263</phone>
+                <phone>0882966261</phone>
+            </contacts>
+            <capacity>42</capacity>
+            <gallery>
+                <image source="resources/hija-orfei-1.jpg"/>
+            </gallery>
+            <amenities water="yes" electricity="yes" heating="yes" bathroom="yes" shower="yes" canteen="yes" restaurant="no" internet="no" shop="no"/>
+            <exit_routes>
+                <route>
+                    <route_name>село Борино</route_name>
+                    <distance>1:00</distance>
+                </route>
+                <route>
+                    <route_name>село Тешел (хижа "Тешел")</route_name>
+                    <distance>2:30</distance>
+                </route>
+                <route>
+                    <route_name>град Девин (покрай скалната забележителност Слона в квартал Настан и през село Грохотно)</route_name>
+                    <distance>4:00</distance>
+                </route>
+                <route>
+                    <route_name>град Девин (през местност Равня)</route_name>
+                    <distance>5:00</distance>
+                </route>
+            </exit_routes>
+            <nearby_sites>
+                <site>
+                    <site_name>пещерата Партизанска дупка</site_name>
+                    <distance>0.8 km</distance>
+                </site>
+                <site>
+                    <site_name>старинният едногръб Кемеров мост на Девинска река</site_name>
+                    <distance>1:30</distance>
+                </site>
+                <site>
+                    <site_name>благоустроената Ягодинска пещера</site_name>
+                    <distance>18 km</distance>
+                </site>
+                <site>
+                    <site_name>горско стопанство "Дженевра"</site_name>
+                    <distance>4:00</distance>
+                </site>
+                <site>
+                    <site_name>благоустроената пещера Дяволското гърло</site_name>
+                    <distance>21.5 km</distance>
+                </site>
+                <site>
+                    <site_name>хижа "Триградски скали"</site_name>
+                    <distance>23 km</distance>
+                </site>
+            </nearby_sites>
+        </hut>
+        <hut id="hut5" region="pirin-mountain" type="mountain-type">
+            <name>Хижа "Грънчар"</name>
+            <description>
+            Разположена в източната част на Рила планинана, на северния бряг на езерото Грънчар. Представлява масивна двуетажна сграда с капацитет 65 места с външни санитарни възли и баня. В района на хижата има бунгала, които допълнително увеличават местата за нощувка. Сградата е водоснабдена, електрифицирана от ВЕЦ, отоплението е с печки на твърдо гориво.
+            </description>
+            <thumbnail source="resources/hija-grunchar-thumbnail.jpg"/>
+            <location>
+                <mountain>Пирин</mountain>
+                <coordinates>
+                    <latitude>42.12175</latitude>
+                    <longitude>23.593</longitude>
+                </coordinates>
+                <altitude>2187</altitude>
+            </location>
+            <contacts>
+                <phone>0898466388</phone>
+                <phone>0889152225</phone>
+                <phone>0885852337</phone>
+                <email>info@granchar.net</email>
+                <url>http://www.granchar.net</url>
+            </contacts>
+            <capacity>150</capacity>
+            <gallery>
+                <image source="resources/hija-grunchar-1.jpg"/>
+                <image source="resources/hija-grunchar-2.jpg"/>
+                <image source="resources/hija-grunchar-3.jpg"/>
+            </gallery>
+            <amenities water="yes" electricity="yes" heating="yes" bathroom="yes" shower="yes" canteen="yes" restaurant="no" internet="no" shop="yes"/>
+            <exit_routes>
+                <route>
+                    <route_name>град Якоруда (гара на теснолинейната жп линия Септември-Добринище)</route_name>
+                    <distance>5:30</distance>
+                </route>
+                <route>
+                    <route_name>горната лифтова станция на лифт "Ястребец"</route_name>
+                    <distance>6:30</distance>
+                </route>
+            </exit_routes>
+            <nearby_sites>
+                <site>
+                    <site_name>вр. Мусала (2925м.)</site_name>
+                    <distance>5:00</distance>
+                </site>
+                <site>
+                    <site_name>вр. Суха вапа (2639м.)</site_name>
+                    <distance>2:00</distance>
+                </site>
+                <site>
+                    <site_name>х. Заврачица (по летния път)</site_name>
+                    <distance>3:00</distance>
+                </site>
+                <site>
+                    <site_name>х. Заврачица (по зимния вариант)</site_name>
+                    <distance>6:00</distance>
+                </site>
+                <site>
+                    <site_name>х. Трещеник</site_name>
+                    <distance>2:30</distance>
+                </site>
+                <site>
+                    <site_name>х. Семково</site_name>
+                    <distance>6:00</distance>
+                </site>
+                <site>
+                    <site_name>х. Рибни езера</site_name>
+                    <distance>8:00</distance>
+                </site>
+                <site>
+                    <site_name>х. Македония</site_name>
+                    <distance>9:00</distance>
+                </site>
+            </nearby_sites>
+        </hut>
+        <hut id="hut6" region="rhodopes-mountain" type="mountain-type">
+            <name>хижа "Момчил юнак"</name>
+            <description>
+                Намира се западно от м.Хайдушка поляна. Представлява комплекс от масивна двуетажна сграда и четири дървени бунгала с общ капацитет 45 места. Сградите са водоснабдени, електрифицирани, отоплението е с печки на твърдо гориво и на ток. Разполага с туристическа кухня и столова.
+            </description>
+            <thumbnail source="resources/hija-momchil-unak-thumbnail.jpg"/>
+            <location>
+                <mountain>Родопи</mountain>
+                <coordinates>
+                    <latitude>41.70053</latitude>
+                    <longitude>24.80549</longitude>
+                </coordinates>
+                <altitude>1750</altitude>
+            </location>
+            <contacts>
+                <phone>0888267249</phone>
+                <phone>0888933302</phone>
+                <phone>030958383</phone>
+            </contacts>
+            <capacity>45</capacity>
+            <gallery>
+                <image source="resources/hija-momchil-unak-1.jpg"/>
+                <image source="resources/hija-momchil-unak-2.jpg"/>
+                <image source="resources/hija-momchil-unak-3.jpg"/>
+            </gallery>
+            <amenities water="yes" electricity="yes" heating="yes" bathroom="yes" shower="yes" canteen="yes" restaurant="yes" internet="no" shop="no"/>
+            <exit_routes>
+                <route>
+                    <route_name>м.Хайдушка поляна</route_name>
+                    <distance>1:00</distance>
+                </route>
+                <route>
+                    <route_name>с.Момчиловци</route_name>
+                    <distance>2:30</distance>
+                </route>
+            </exit_routes>
+            <nearby_sites>
+                <site>
+                    <site_name>х. Преспа</site_name>
+                    <distance>2:30</distance>
+                </site>
+                <site>
+                    <site_name>х. Свобода</site_name>
+                    <distance>4:30</distance>
+                </site>
+                <site>
+                    <site_name>х. Студенец</site_name>
+                    <distance>4:30</distance>
+                </site>
+                <site>
+                    <site_name>х. Перелик</site_name>
+                    <distance>6:00</distance>
+                </site>
+                <site>
+                    <site_name>х. Пашалийца</site_name>
+                    <distance>6:30</distance>
+                </site>
+            </nearby_sites>
+        </hut>
+          <hut id="hut7" region="rila-mountain" type="mountain-type">
+            <name>хижа "Заврачица"</name>
+            <description>
+                Намира се в м.Заврачица на левия бряг на Права Марица. Представлява масивна двуетажна сграда с капацитет 75 места с външни санитарни възли и умивални. Хижата е водоснабдена. електрифицирана от аграгат и ВЕЦ, отоплението е с печки на твърдо гориво. Има кухня, столова и лафка.
+            </description>
+            <thumbnail source="resources/hija-zavrachica-thumbnail.jpg"/>
+            <location>
+                <mountain>Рила</mountain>
+                <coordinates>
+                    <latitude>42.168</latitude>
+                    <longitude>23.640</longitude>
+                </coordinates>
+                <altitude>2178</altitude>
+            </location>
+            <contacts>
+                <phone>0884791609</phone>
+                <url>http://www.zavrachica.hit.bg/</url>
+            </contacts>
+            <capacity>75</capacity>
+            <gallery>
+                <image source="resources/hija-zavrachica-1.jpg"/>
+                <image source="resources/hija-zavrachica-2.jpg"/>
+                <image source="resources/hija-zavrachica-3.jpg"/>
+            </gallery>
+            <amenities water="yes" electricity="yes" heating="yes" bathroom="yes" shower="yes" canteen="yes" restaurant="yes" internet="no" shop="yes"/>
+            <exit_routes>
+                <route>
+                    <route_name>гр. Боровец</route_name>
+                    <distance>5:00</distance>
+                </route>
+            </exit_routes>
+            <nearby_sites>
+                <site>
+                    <site_name>вр. Кози връх (2567 м.)</site_name>
+                    <distance>1:30</distance>
+                </site>
+                <site>
+                    <site_name>вр. Манчо</site_name>
+                    <distance>1:45</distance>
+                </site>
+                <site>
+                    <site_name>вр. Янчов връх</site_name>
+                    <distance>1:00</distance>
+                </site>
+                <site>
+                    <site_name>х. Венетица</site_name>
+                    <distance>8:00</distance>
+                </site>
+                <site>
+                    <site_name>х. Белмекен</site_name>
+                    <distance>6:30</distance>
+                </site>
+                <site>
+                    <site_name>х. Грънчар</site_name>
+                    <distance>3:00</distance>
+                </site>
+                <site>
+                    <site_name>х. Мусала (през вр. Мусала)</site_name>
+                    <distance>5:30</distance>
+                </site>
+                <site>
+                    <site_name>х. Мусала (край Маричини езера)</site_name>
+                    <distance>5:00</distance>
+                </site>
+                <site>
+                    <site_name>х. Марица</site_name>
+                    <distance>1:00</distance>
+                </site>
+                <site>
+                    <site_name>вр. Мусала</site_name>
+                    <distance>5:00</distance>
+                </site>
+            </nearby_sites>
+        </hut>
+          <hut id="hut8" region="other-mountain" type="mountain-type">
+            <name>хижа "Яна"</name>
+            <description>
+                масивна триетажна сграда с капацитет 69 места, открита през 1995 г. по случай 100-годишнината на организирания туризъм в България
+            </description>
+            <thumbnail source="resources/hija-yana-thumbnail.jpg"/>
+            <location>
+                <mountain>Влахина</mountain>
+                <coordinates>
+                    <latitude>42.161655</latitude>
+                    <longitude>22.977196</longitude>
+                </coordinates>
+                <altitude>740</altitude>
+            </location>
+            <contacts>
+                <phone>0885652796</phone>
+                <phone>0896688319</phone>
+            </contacts>
+            <capacity>55</capacity>
+            <gallery>
+                <image source="resources/hija-yana-1.jpg"/>
+                <image source="resources/hija-yana-2.jpg"/>
+                <image source="resources/hija-yana-3.jpg"/>
+            </gallery>
+            <amenities water="yes" electricity="yes" heating="yes" bathroom="yes" shower="yes" canteen="no" restaurant="yes" internet="yes" shop="no_info"/>
+            <exit_routes>
+                <route>
+                    <route_name>гр. Бобошево</route_name>
+                    <distance>1:00</distance>
+                </route>
+            </exit_routes>
+            <nearby_sites>
+                <site>
+                    <site_name>Бобошевски манастир "Св. Димитър"</site_name>
+                    <distance>00:05</distance>
+                </site>
+                <site>
+                    <site_name>параклис "Св. св. Петър и Павел"</site_name>
+                    <distance>00:25</distance>
+                </site>
+                <site>
+                    <site_name>връх Бобошевски Руен (1134 м)</site_name>
+                    <distance>1:30</distance>
+                </site>
+                <site>
+                    <site_name>параклис "Св. Архангел Михаил"</site_name>
+                    <distance>1:30</distance>
+                </site>
+                <site>
+                    <site_name>пещерата над село Скрино, в която е живял Св. Иван Рилски и Руенски манастир "Св. Иван Рилски"</site_name>
+                    <distance>1:45</distance>
+                </site>
+            </nearby_sites>
+        </hut>
+    </huts>
+    <regions>
+        <region id="pirin-mountain">Пирин</region>
+        <region id="vitosha-mountain">Витоша</region>
+        <region id="rila-mountain">Рила</region>
+        <region id="rhodopes-mountain">Родопи</region>
+        <region id="sredna-gora-mountain">Средна гора</region>
+        <region id="stara-planina-mountain">Стара планина</region>
+        <region id="osogovo-mountain">Осогово</region>
+        <region id="belasitsa-mountain">Беласица</region>
+        <region id="sakar-mountain">Сакар</region>
+        <region id="slavyanka-mountain">Славянка</region>
+        <region id="zlatitsa-mountain">Златица</region>
+        <region id="other-mountain">Други</region>
+    </regions>
+    <hut_types>
+        <type id="mountain-type">планинска</type>
+        <type id="hunting-type">ловна</type>
+        <type id="lodge-type">заслон</type>
+        <type id="other-type">друга</type>
+    </hut_types>
+</catalog>
