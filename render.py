@@ -35,8 +35,11 @@ def html_to_pdf(html_file):
     return pdf_file
 
 
-def print_usage():
-    print("Usage: python render.py <serve | render>")
+def print_usage(is_render: False):
+    if is_render:
+        print("Usage: python render.py render <html | pdf> <xml_file>")
+    else:
+        print("Usage: python render.py <serve | render>")
     exit(1)
 
 
@@ -49,8 +52,12 @@ if __name__ == "__main__":
         http.server.test(HandlerClass=CustomHTTPRequestHandler, port=8000, bind="localhost")
     elif sys.argv[1] == "render":
         if not len(sys.argv) == 4:
-            print_usage()
+            print_usage(is_render=True)
         xml_file = sys.argv[3]
+
+        if os.name == 'nt':
+            print("This part of the script is only supported on Unix systems.")
+            exit(1)
 
         if sys.argv[2] == "html":
             render_html(xml_file)
