@@ -59,7 +59,7 @@
                                 <xsl:value-of select="capacity"/>
                             </fo:block>
                             <fo:block>
-                                <fo:inline font-weight="bold">Екстри: </fo:inline>
+                                <fo:inline font-weight="bold">Удобства: </fo:inline>
                                 <fo:table border="1pt solid black" table-layout="fixed">
                                     <fo:table-body>
                                         <xsl:for-each select="amenities/@*">

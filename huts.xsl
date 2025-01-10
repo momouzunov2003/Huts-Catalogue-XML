@@ -137,7 +137,7 @@
                             </li>
                             <li>
                                 <p>
-                                    <b>Екстри:</b>
+                                    <b>Удобства:</b>
                                 </p>
                                 <xsl:text> </xsl:text>
                                 <table border="1">
@@ -149,8 +149,7 @@
                                         <tr>
                                             <xsl:choose>
                                                 <xsl:when test="name() = 'water'"><td>Вода</td></xsl:when>
-                                                <xsl:when test="name() = 'electricity'"><td>
-        Електричество</td></xsl:when>
+                                                <xsl:when test="name() = 'electricity'"><td>Електричество</td></xsl:when>
                                                 <xsl:when test="name() = 'heating'"><td>Отопление</td></xsl:when>
                                                 <xsl:when test="name() = 'bathroom'"><td>Тоалетна</td></xsl:when>
                                                 <xsl:when test="name() = 'shower'"><td>Баня</td></xsl:when>
