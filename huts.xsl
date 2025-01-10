@@ -4,7 +4,7 @@
     <xsl:template match="/">
         <html>
             <head>
-                <link rel="stylesheet" type="text/css" href="hutsStyle.css" />
+                <link rel="stylesheet" type="text/css" href="huts-style.css" />
             </head>
             <body>
                 <xsl:for-each select="catalog/huts/hut">
@@ -112,9 +112,8 @@
                                                 <xsl:when test="count(contacts/url) > 0">
                                                     <xsl:for-each select="contacts/url">
                                                         <xsl:variable name="link" select="." />                        
-                                            <li>
-                                                            <a href="{$link}" target="_blank">Линк
-        към сайта</a>
+                                                        <li>
+                                                            <a href="{$link}" target="_blank">Линк към сайта</a>
                                                         </li>
                                                     </xsl:for-each>
                                                 </xsl:when>
@@ -137,7 +136,7 @@
                             </li>
                             <li>
                                 <p>
-                                    <b>Удобства:</b>
+                                    <b>Екстри:</b>
                                 </p>
                                 <xsl:text> </xsl:text>
                                 <table border="1">
