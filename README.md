@@ -26,8 +26,8 @@ Make sure you have Python installed on your system.
 This method for building the PDF file is far more troublesome.
 Apache FOP doesn't allow DOCTYPE declarations.
 This renders the course requirement for presenting the graphics as XML entities impossible.
-Therefore the xml needs tobe transformed and the entities be resolved. 
-his is done by hardcoding the path to each image in a intermediate XSL transformation file.
+Therefore the xml needs to be transformed and the entities be resolved. 
+This is done by hardcoding the path to each image in an intermediate XSL transformation file.
 This is not a perfect solution but a working one nonetheless.
 
 ### Step 1: Transform the original XML file
